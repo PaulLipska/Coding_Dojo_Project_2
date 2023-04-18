@@ -33,4 +33,4 @@ The audience for this study would be both medical practitioners and their patien
 *  ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 *  HeartDisease: output class [1: heart disease, 0: Normal]
 
-![alt text](https://github.com/PaulLipska/Food-Sales-Predictions/blob/main/sales_type.png)
+![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_age.png)
