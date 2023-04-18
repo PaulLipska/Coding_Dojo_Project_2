@@ -40,4 +40,5 @@ From reviewing the data we can find two different correlations.  One is that Old
 *  Notice the spikes in this measure as they occur roughly in the middle of each decade starting around age 38 this trend continues unabated until about 70
 
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_level.png)
-*  Here as we look at the incidence 
+*  Looking at strictly Heart Disease as it occurs in relation to old peak we can identify several markers where Heart Disease and this measurement are set to coincide. 0.0, 1.0, 1.5, and 2.0. The first measurement of 0.0 has a high incidence of Heart Disease while having two times the amount of negative results. This can be interpreted as an inflection point between those who are about to get heart disease and those who have it. As oldpeak increases both measures decrease but not as drastically as the measure of people without heart disease.  The number of people without Heart Disease halves for nearly every value until it completely disappears at 3.0
+
