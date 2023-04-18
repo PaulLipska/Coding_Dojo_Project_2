@@ -1,9 +1,7 @@
 # Codeing_Dojo_Project_2
 Independent project analyzing dataset for Heart Disease
-Create a README.md file in your GitHub repository.  This README should include:
-Your business problem and stakeholders
-The source of your data
-A description of your data
+
+
 2 analytical insights from your data analysis.  
 You can use the 2 plots from Project 2, part 3 for this!
 They should include visualizations AND written interpretations
@@ -34,3 +32,5 @@ The audience for this study would be both medical practitioners and their patien
 *  Oldpeak: oldpeak = ST [Numeric value measured in depression]
 *  ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 *  HeartDisease: output class [1: heart disease, 0: Normal]
+
+
