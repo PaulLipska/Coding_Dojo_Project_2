@@ -33,5 +33,11 @@ The audience for this study would be both medical practitioners and their patien
 *  ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 *  HeartDisease: output class [1: heart disease, 0: Normal]
 
+##### Insights
+From reviewing the data we can find two different correlations.  One is that Oldpeak tends to measure higher in those who are older and that it also tends to predict a higher instance of heart disease than alomst any other factor measured in this study.  
+
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_age.png)
+*  Notice the spikes in this measure as they occur roughly in the middle of each decade starting around age 38 this trend continues unabated until about 70
+
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_level.png)
+*  Here as we look at the incidence 
