@@ -34,3 +34,4 @@ The audience for this study would be both medical practitioners and their patien
 *  HeartDisease: output class [1: heart disease, 0: Normal]
 
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_age.png)
+![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_level.png)
