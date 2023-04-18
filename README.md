@@ -1,14 +1,6 @@
 # Coding_Dojo_Project_2
 Independent project analyzing dataset for Heart Disease
 
-
-2 analytical insights from your data analysis.  
-You can use the 2 plots from Project 2, part 3 for this!
-They should include visualizations AND written interpretations
-The metrics for your best model
-A description of how well your model would solve your business problem
-A summary with at least 2 recommendations for your stakeholders, based on your model performance AND analytical findings.
-
 ### Business Problem
 How to successfully predict the onset of heart disease
 
@@ -42,5 +34,15 @@ From reviewing the data we can find two different correlations.  One is that Old
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_level.png)
 *  Looking at strictly Heart Disease as it occurs in relation to old peak we can identify several markers where Heart Disease and this measurement are set to coincide. 0.0, 1.0, 1.5, and 2.0. The first measurement of 0.0 has a high incidence of Heart Disease while having two times the amount of negative results. This can be interpreted as an inflection point between those who are about to get heart disease and those who have it. As oldpeak increases both measures decrease with Heart Disease now the most common result.  At 3.0 negative results are almost completely gone.
 
+##### Finding the Correct Model
+Researching this issue I used Random Forest and XGBoost.  Both models were optimized with GridsearchCV and PCA.  The resulting best fit model used XGBoost with PCA.  The results returned were:
 
+Accuracy score on XGBoost with PCA train set:  0.9200581395348837
+Accuracy score on XGBoost with PCA test set:  0.8913043478260869
 
+These scores were identical to the score for XGBoost with GridsearchCV, but were arrived at with fewer steps making for a more effecient model.  
+
+![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/conf_.png)
+
+### Summary
+Based on this investigation there is promise in focusing on key metrics like oldpeak and its corelation to Heart Disase and Age.  This model had a heavy target audince of those in their early 50s.  It might be useful to break off the study into age groups to more effectively catalog data from those groups.  Perhaps just focus on 50 year olds.
