@@ -26,13 +26,13 @@ The audience for this study would be both medical practitioners and their patien
 *  HeartDisease: output class [1: heart disease, 0: Normal]
 
 ##### Insights
-From reviewing the data we can find two different correlations.  One is that Oldpeak tends to measure higher in those who are older and that it also tends to predict a higher instance of heart disease than alomst any other factor measured in this study.  
+From reviewing the data we can find two different correlations.  Old peak in the range of 0-2 is a strong indication of Heart Disease and Heart Disease tends to occur with greater frequency for 50 year olds and drops off dramatically either due to people dieing or due to excessive number of 50 year olds in this investigation
 
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_age.png)
-*  Notice the spikes in this measure as they occur roughly in the middle of each decade starting around age 38 this trend continues unabated until about 70
+*  Per our observation you can see those in their 50s have the highest incidence of Heart Disease
 
 ![alt text](https://github.com/PaulLipska/Coding_Dojo_Project_2/blob/main/data/oldpeak_level.png)
-*  Looking at strictly Heart Disease as it occurs in relation to old peak we can identify several markers where Heart Disease and this measurement are set to coincide. 0.0, 1.0, 1.5, and 2.0. The first measurement of 0.0 has a high incidence of Heart Disease while having two times the amount of negative results. This can be interpreted as an inflection point between those who are about to get heart disease and those who have it. As oldpeak increases both measures decrease with Heart Disease now the most common result.  At 3.0 negative results are almost completely gone.
+*  Looking at strictly Heart Disease as it occurs in relation to old peak we can identify several markers where Heart Disease and this measurement are set to coincide. 0.0, 1.0, 1.5, and 2.0. 
 
 ##### Finding the Correct Model
 Researching this issue I used Random Forest and XGBoost.  Both models were optimized with GridsearchCV and PCA.  The resulting best fit model used XGBoost with PCA.  The results returned were:
