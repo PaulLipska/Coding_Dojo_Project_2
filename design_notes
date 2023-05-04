@@ -1,0 +1,9 @@
+Filtering for outliers
+import pandas as pd
+import numpy as np
+from scipy import stats
+
+
+df = pd.DataFrame(np.random.randn(100, 3))
+
+df[(np.abs(stats.zscore(df)) < 3).all(axis=1)]
